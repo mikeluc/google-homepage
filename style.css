@@ -1,3 +1,63 @@
 li {
     display: inline;
 }
+
+a:link {
+    text-decoration: none;
+    color: #363636;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+li a {
+    display: block;
+    text-align: center;
+    padding: 2px 8px 8px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f1f1;
+    color: white;
+    padding-bottom: 1px;
+    
+    
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 2px 8px 8px;
+}
+
+.center {
+    text-align: center;
+    padding-top: 150px;
+}
+
+.searchbar {
+   
+}
+
+.button-1 {
+    display: inline-block;
+}
+
+.button-2 {
+    display: inline-block;
+}   
